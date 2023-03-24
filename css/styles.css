@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6, p {
   width: 150px;
 }
 
+.card-img-rectangle {
+  height: 150px;
+}
+
 .fa-linkedin {
   color: #0072b1;
 }
