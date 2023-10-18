@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0
+}  
+  /* Style for the tooltip */
+  #tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  /* Style for the SVG container */
+  svg {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style for the bars */
+  .bar {
+    fill: #36a2eb;
+    transition: fill 0.2s;
+  }
+  
+  .bar:hover {
+    fill: #ff6384;
+  }
+  
