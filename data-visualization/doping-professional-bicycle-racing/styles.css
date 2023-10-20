@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 20px;
+    fill: #333; 
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+
+#tooltip {
+    visibility: hidden;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    width: auto;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: left;
+  }
