@@ -1,0 +1,60 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+    min-height: 100%
+}
+
+body {
+    background-color: #E0E3F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #163D57
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 1200px;
+    background-color: #163D57;
+    padding: 10px;
+}
+
+
+.cell:hover{
+    fill: black
+}
+
+g{
+    color: #E0E3F0
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #163D57;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    min-height: 150px;
+}
+
+
+#title{
+    font-size: 28px;
+    color: #163D57;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
