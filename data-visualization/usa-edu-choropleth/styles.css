@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    min-height: 100%;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #description {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    color: #666;
+  }
+
+#canvas{
+    margin: 0 auto;
+    min-width: 1200px;
+    min-height: 600px;
+}
+
+.states {
+    stroke: black;
+    fill: none;
+    stroke-width: 0.5%;
+  }
+
+  #tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    visibility: hidden;
+}
+
+  #legend {
+    position: absolute;
+    right: 0px;
+    width: auto;
+  }
