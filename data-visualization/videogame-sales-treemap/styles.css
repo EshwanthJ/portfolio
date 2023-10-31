@@ -1,0 +1,62 @@
+html, body{
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+  #title {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  #description {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666;
+  }
+
+  #canvas{
+    min-width: 1000px;
+    min-height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+  #legend {
+    padding: 10px;
+    width: 350px;
+  }
+
+  .legend-item {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #legend text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+
+  #tooltip{
+    font-size: 14px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  visibility: hidden;
+  }
